@@ -1,0 +1,22 @@
+{
+  "HomePage": {
+    "Title": "Anasayfa"
+  },
+  "DocsPage": {
+    "Title": "Tam işlevsel, hazır next.js şablonu"
+  },
+  "NotFoundPage": {
+    "Title": "Sayfa bulunamadı",
+    "PageNotFound": "Aradığınız sayfa bulunamadı.",
+    "ReturnHome": "Anasayfa'ya Dön"
+  },
+  "ThemeSwitcher": {
+    "dark": "Koyu",
+    "light": "Açık",
+    "system": "Sistem"
+  },
+  "Meta": {
+    "title": "Fek Software",
+    "description": "Fek Software - Created by fek"
+  }
+}

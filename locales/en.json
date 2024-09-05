@@ -1,0 +1,22 @@
+{
+  "HomePage": {
+    "Title": "Home Page"
+  },
+  "DocsPage": {
+    "Title": "Fully functional, ready next.js template"
+  },
+  "NotFoundPage": {
+    "Title": "Page Not Found",
+    "PageNotFound": "The page you were looking for could not be found.",
+    "ReturnHome": "Return Home"
+  },
+  "ThemeSwitcher": {
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System"
+  },
+  "Meta": {
+    "title": "Fek Software",
+    "description": "Fek Software - Created by fek"
+  }
+}
