@@ -9,7 +9,6 @@ import { defaultLocale } from "@/i18n/config";
 import { global } from "@/lib/fonts";
 import { getObjectValueByLocale } from "@/lib/utils";
 import { siteConfig } from "@/lib/site-config";
-import { Layout } from "@/components/layout/layout";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -94,9 +93,7 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider locale={params.locale} messages={messages}>
           <Providers params={params}>
-            <Layout>
-              <main>{children}</main>
-            </Layout>
+            <main>{children}</main>
           </Providers>
         </NextIntlClientProvider>
       </body>
