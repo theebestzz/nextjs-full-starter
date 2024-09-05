@@ -1,10 +1,9 @@
 import EnFlag from "../../public/flags/en.png";
 import TrFlag from "../../public/flags/tr.png";
-import HeFlag from "../../public/flags/he.png";
 
 export const defaultLocale: string = "en";
 
-export const locales: string[] = ["en", "tr", "he"];
+export const locales: string[] = ["en", "tr"];
 
 export const labels: {
   [key: string]: { name: string; flag: any };
@@ -17,20 +16,15 @@ export const labels: {
     name: "Türkçe",
     flag: TrFlag,
   },
-  he: {
-    name: "עברית",
-    flag: HeFlag,
-  },
 };
 export const pathnames: {
-  [key: string]: { en: string; tr: string; he: string } | string;
+  [key: string]: { en: string; tr: string } | string;
 } = {
   "/": "/",
 
-  "/docs": {
-    en: "/docs",
-    tr: "/belge",
-    he: "/docs",
+  "/about": {
+    en: "/about",
+    tr: "/hakkimda",
   },
 };
 

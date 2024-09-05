@@ -1,6 +1,5 @@
 import en from "../../locales/en.json";
 import tr from "../../locales/tr.json";
-import he from "../../locales/he.json";
 
 import { absoluteUrl } from "@/lib/utils";
 
@@ -10,7 +9,6 @@ export const siteConfig = {
   description: {
     en: en.Meta.description,
     tr: tr.Meta.description,
-    he: he.Meta.description,
   },
 
   url:

@@ -27,9 +27,9 @@ export function ThemeSwitcher() {
 
   const themes = useMemo(() => {
     return [
-      { label: t("dark"), value: "dark" },
-      { label: t("light"), value: "light" },
-      { label: t("system"), value: "system" },
+      { label: t("Dark"), value: "dark" },
+      { label: t("Light"), value: "light" },
+      { label: t("System"), value: "system" },
     ];
   }, [t]);
 

@@ -1,22 +1,36 @@
 {
   "HomePage": {
-    "Title": "Home Page"
+    "Title": "Fek Software",
+    "SubTitle": "We Always Strive For Excellence.",
+    "Description": "I create beautiful products using the latest technologies and frameworks. With a passion for developing and designing, I take pride in building amazing digital solutions."
   },
-  "DocsPage": {
-    "Title": "Fully functional, ready next.js template"
+  "AboutPage": {
+    "Title": "About"
   },
   "NotFoundPage": {
     "Title": "Page Not Found",
     "PageNotFound": "The page you were looking for could not be found.",
     "ReturnHome": "Return Home"
   },
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Products": "Products",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
   "ThemeSwitcher": {
-    "dark": "Dark",
-    "light": "Light",
-    "system": "System"
+    "Dark": "Dark",
+    "Light": "Light",
+    "System": "System"
   },
   "Meta": {
     "title": "Fek Software",
     "description": "Fek Software - Created by fek"
+  },
+  "Preferences": {
+    "Title": "User Preferences",
+    "Description": "Choose appearance, language options and provide a better experience"
   }
 }
